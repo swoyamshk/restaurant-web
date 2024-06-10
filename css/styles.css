@@ -1,0 +1,101 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  background: #fff0de;
+  padding: 10px;
+}
+
+.navbar .links {
+  color: black;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end; /* Align links to the right */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar .links a {
+  margin-right: 40px;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.content-wrapper {
+  background: url("../bg.png") no-repeat center center/cover;
+  height: calc(
+    100vh - 50px
+  ); /* Adjusted height to fit the screen minus header */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; /* Align items to the top */
+  color: rgb(143, 143, 143);
+  padding: 20px;
+}
+.content h1 {
+  font-size: 5em;
+  margin: 0.5em 0;
+  color: #333;
+  font-weight: 700;
+}
+.content h2 {
+  font-size: 3.5em;
+  margin: 0.5em 0;
+  color: #333;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  color: #555;
+}
+
+.content button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 10px 0;
+  cursor: pointer;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.content a {
+  color: #ff6347;
+  text-decoration: none;
+  margin: 10px 0;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.content h2 {
+  font-size: 2.5em;
+  margin: 1em 0 0.5em;
+  color: #333;
+  font-weight: 500;
+}
+
+.content-wrapper div {
+  margin-bottom: 20px; /* Add space between the sections */
+}
+
+.btn-1 {
+  width: 200px;
+  height: 60px;
+  margin-right: 40px;
+}
+
+.order-now {
+  font-size: 2.5rem;
+  padding-left: 40px;
+}

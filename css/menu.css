@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0de;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.navbar {
+    background: #fff0de;
+    padding: 10px;
+}
+
+.navbar .links {
+    color: black;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.navbar .links a {
+    margin-right: 40px;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.item-details {
+    padding: 15px;
+}
+
+.item-details h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.item-details p {
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.contact-details, .contact-form {
+    background-color: white; /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.contact-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-details li {
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #d1c4b8; /* Soft grey border */
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: #fffdfc; /* Light background for form fields */
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    border-color: #6ca0dc; /* Soft blue highlight */
+    box-shadow: 0 0 5px rgba(108, 160, 220, 0.5);
+}
+
+.contact-form button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
